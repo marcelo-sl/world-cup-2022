@@ -4,9 +4,9 @@ import { Team } from "./Team";
 
 
 type GroupProps = {
-    Name: string,
-    Teams: Team[],
-    Matches: Match[]
+    name: string,
+    teams: Team[],
+    matches: Match[]
 }
 
 export class Group extends Entity<GroupProps> {

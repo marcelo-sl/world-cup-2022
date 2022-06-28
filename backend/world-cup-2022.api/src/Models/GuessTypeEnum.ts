@@ -1,0 +1,1 @@
+export enum GuessTypeEnum { Team1Win = 1, Team2Win, TiedMatch }

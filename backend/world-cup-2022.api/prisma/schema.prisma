@@ -1,0 +1,57 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Team {
+  id         String  @id
+  name       String
+  flagSource String
+  matches    Match[]
+
+  groupId String
+  Group   Group  @relation(fields: [groupId], references: [id])
+}
+
+model Group {
+  id      String  @id
+  name    String
+  teams   Team[]
+  matches Match[]
+}
+
+model Match {
+  id   String   @id
+  date DateTime
+
+  groupId String
+  Group   Group  @relation(fields: [groupId], references: [id])
+
+  teams   Team[]
+  guesses Guess[]
+}
+
+model Guess {
+  id    String   @id
+  email String
+  date  DateTime
+
+  matchId String
+  Math    Match  @relation(fields: [matchId], references: [id])
+
+  guessType   GuessType @relation(fields: [guessTypeId], references: [id])
+  guessTypeId Int
+}
+
+model GuessType {
+  id    Int     @id @default(autoincrement())
+  type  String
+  Guess Guess[]
+}

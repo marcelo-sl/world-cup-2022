@@ -1,5 +1,5 @@
-import { InMemoryGuessRepository } from "../../../Tests/Repositories/In-Memory-Guess-Repositories";
-import { InMemoryMatchRepository } from "../../../Tests/Repositories/In-Memory-Matches-Repository";
+import { InMemoryGuessRepository } from "../../../tests/Repositories/In-Memory-Guess-Repositories";
+import { InMemoryMatchRepository } from "../../../tests/Repositories/In-Memory-Matches-Repository";
 import { GuessTypeEnum } from "../Models/GuessTypeEnum";
 import { Match } from "../Models/Match";
 import { Team } from "../Models/Team";

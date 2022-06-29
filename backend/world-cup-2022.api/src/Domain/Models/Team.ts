@@ -2,7 +2,6 @@ import { Entity } from "./Entity";
 
 type TeamProps = {
     name: string,
-    abbreviation: string,
     flagSource: string,
     groupId: string
 }

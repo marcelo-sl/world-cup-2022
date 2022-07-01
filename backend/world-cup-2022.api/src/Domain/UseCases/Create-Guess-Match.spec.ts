@@ -14,13 +14,11 @@ describe('Create guess match use case', () => {
         const match = Match.Create({
             team1: Team.Create({
                 name: 'Team One',
-                abbreviation: 'T1',
                 flagSource: 'flag-team-one.svg',
                 groupId: 'group-id'
             }),
             team2: Team.Create({
                 name: 'Team Two',
-                abbreviation: 'T2',
                 flagSource: 'flag-team-two.svg',
                 groupId: 'group-id'
             }),

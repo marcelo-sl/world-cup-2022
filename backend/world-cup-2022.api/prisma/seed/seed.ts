@@ -1,13 +1,15 @@
 import { PrismaClient } from '@prisma/client';
 
 import { groups } from './groupSeeder';
+import { matches } from './matchSeeder';
 import { teams } from './teamSeeder';
 
 const prisma = new PrismaClient();
 
 async function seed() {
-    await createGroups();
-    await createTeams();
+    // await createGroups();
+    // await createTeams();
+    await createMatches();
 }
 
 async function createGroups() {
@@ -19,6 +21,12 @@ async function createGroups() {
 async function createTeams() {
     await prisma.team.createMany({
         data: teams
+    });
+}
+
+async function createMatches() {
+    await prisma.match.createMany({
+        data: matches
     });
 }
 

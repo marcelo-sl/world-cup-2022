@@ -187,13 +187,13 @@ export const matches = [
     // Coreia do Sul VS Gana
     {
         id: '146b5da9-e062-4eed-8fc5-272eb90d6282',
-        date: new Date(Date.UTC(2022, 11, 28, 7, 0, 0)),
-        groupId: 'cfd7ee24-1ec6-492a-9238-d4404a23e07c'
+        date: new Date(Date.UTC(2022, 11, 28, 10, 0, 0)),
+        groupId: '54ce251f-d930-4198-9260-ecbac36a1f20'
     },
     // Portugal VS Uruguai
     {
         id: 'a79898c5-8c83-40be-861f-e0e2c1b09b69',
-        date: new Date(Date.UTC(2022, 11, 28, 13, 0, 0)),
-        groupId: 'cfd7ee24-1ec6-492a-9238-d4404a23e07c'
+        date: new Date(Date.UTC(2022, 11, 28, 16, 0, 0)),
+        groupId: '54ce251f-d930-4198-9260-ecbac36a1f20'
     },
 ]

@@ -196,4 +196,103 @@ export const matches = [
         date: new Date(Date.UTC(2022, 11, 28, 16, 0, 0)),
         groupId: '54ce251f-d930-4198-9260-ecbac36a1f20'
     },
+
+    // Rodada 3
+
+    // Equador VS Senegal
+    {
+        id: '8969628d-a952-4b88-94fc-44258e98c040',
+        date: new Date(Date.UTC(2022, 11, 29, 12, 0, 0)),
+        groupId: 'beaf9fa0-c3a5-4420-a009-86470ff66db1'
+    },
+    // Holanda VS Catar
+    {
+        id: 'a47efcab-1cef-43ef-8bcc-5408829730f1',
+        date: new Date(Date.UTC(2022, 11, 29, 12, 0, 0)),
+        groupId: 'beaf9fa0-c3a5-4420-a009-86470ff66db1'
+    },
+    // Irã VS Estados Unidos
+    {
+        id: 'a0a6f7e1-3dbd-429b-8e8e-f897a4b5b654',
+        date: new Date(Date.UTC(2022, 11, 29, 16, 0, 0)),
+        groupId: '1615dcb7-e1a4-451b-95c7-7d0e8a5c91c2'
+    },
+    // Gales VS Inglaterra
+    {
+        id: 'a7f48048-e844-41b5-bae4-a0fbb2ff6914',
+        date: new Date(Date.UTC(2022, 11, 29, 16, 0, 0)),
+        groupId: '1615dcb7-e1a4-451b-95c7-7d0e8a5c91c2'
+    },
+    // Polônia VS Argentina
+    {
+        id: '2d09b337-97b4-443f-93ee-da2e8f55a138',
+        date: new Date(Date.UTC(2022, 11, 30, 16, 0, 0)),
+        groupId: 'b79e29c6-668e-4f3d-bb06-d7b4e6519259'
+    },
+    // Arábia Saudita VS México
+    {
+        id: '1c397863-0c61-48e7-afdb-39335c083d6e',
+        date: new Date(Date.UTC(2022, 11, 30, 16, 0, 0)),
+        groupId: 'b79e29c6-668e-4f3d-bb06-d7b4e6519259'
+    },
+    // Tunísia VS França
+    {
+        id: '58170e1c-6f56-4d39-999e-74e616a76ba3',
+        date: new Date(Date.UTC(2022, 11, 30, 12, 0, 0)),
+        groupId: '3ef56a71-29dc-4a6d-b5ba-c0edf4a9b091'
+    },
+    // Austrália VS Dinamarca
+    {
+        id: '1e048440-a22c-4bd4-ba87-6ca08fa0612c',
+        date: new Date(Date.UTC(2022, 11, 30, 12, 0, 0)),
+        groupId: '3ef56a71-29dc-4a6d-b5ba-c0edf4a9b091'
+    },
+    // Japão VS Espanha
+    {
+        id: '3a99bae5-e67b-4535-8c96-0a22f45a5253',
+        date: new Date(Date.UTC(2022, 12, 1, 16, 0, 0)),
+        groupId: 'f5094b4d-e8c1-4c1a-9a62-e9ee57be669b'
+    },
+    // Costa Rica VS Alemanha
+    {
+        id: '942b95c4-d8ef-49ac-91e4-85933d5378c2',
+        date: new Date(Date.UTC(2022, 12, 1, 16, 0, 0)),
+        groupId: 'f5094b4d-e8c1-4c1a-9a62-e9ee57be669b'
+    },
+    // Croácia VS Bélgica
+    {
+        id: 'aa2f9f43-8f3c-4ea0-910f-b08aa50e47a1',
+        date: new Date(Date.UTC(2022, 12, 1, 12, 0, 0)),
+        groupId: '3c25af02-058f-4007-b0ae-f811455d298a'
+    },
+    // Canadá VS Marrocos
+    {
+        id: 'c1fa454f-7190-4991-b2aa-97a10f9702be',
+        date: new Date(Date.UTC(2022, 12, 1, 12, 0, 0)),
+        groupId: '3c25af02-058f-4007-b0ae-f811455d298a'
+    },
+    // Sérvia VS Suíça
+    {
+        id: '2d84ec48-3cec-457c-88e7-a9e776faa273',
+        date: new Date(Date.UTC(2022, 12, 2, 16, 0, 0)),
+        groupId: 'cfd7ee24-1ec6-492a-9238-d4404a23e07c'
+    },
+    // Camarões VS Brasil
+    {
+        id: '5d1e938c-4baa-4732-a357-73966da307e1',
+        date: new Date(Date.UTC(2022, 12, 2, 16, 0, 0)),
+        groupId: 'cfd7ee24-1ec6-492a-9238-d4404a23e07c'
+    },
+    // Coreia do Sul VS Portugal
+    {
+        id: '9f96dc70-6ed4-4c90-a219-c1bf13585e59',
+        date: new Date(Date.UTC(2022, 12, 2, 12, 0, 0)),
+        groupId: '54ce251f-d930-4198-9260-ecbac36a1f20'
+    },
+    // Gana VS Uruguai
+    {
+        id: 'eb440de2-ede0-4d24-a2ba-acc9114f2ebb',
+        date: new Date(Date.UTC(2022, 12, 2, 12, 0, 0)),
+        groupId: '54ce251f-d930-4198-9260-ecbac36a1f20'
+    },
 ]
